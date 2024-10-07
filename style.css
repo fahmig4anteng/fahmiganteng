@@ -1,0 +1,52 @@
+body{
+    background-color: #000;
+}
+
+.container{
+    margin: 100px 0 0 100px;
+    width: 85%;
+    height :450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container img{
+    width: 10%;
+    height :100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgba(white, green, blue, alpha);
+    transition: all ease-in-out 0.5s;
+    
+}
+
+.container img:hover{
+    width: 25%;
+}
+
+.h1{
+    text-align: center;
+    color: white;
+}
+.container-ol li {
+    text-decoration: none; 
+    color: white; 
+}
+
+.a-navbar {
+    text-decoration: none; 
+    color: white; 
+}
+
+.container-ol {
+    text-decoration-line: none;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    list-style-position: inside;
+    margin: 20px auto;
+    padding: 0;
+}
+
